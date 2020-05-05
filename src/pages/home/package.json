@@ -1,0 +1,5 @@
+{
+  "name": "HomePage",
+  "private": true,
+  "main": "./HomePage.component.jsx"
+}

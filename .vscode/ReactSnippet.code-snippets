@@ -1,0 +1,15 @@
+{
+	"rfce": {
+		"prefix": "Generate functional component",
+		"body": [
+			"import React, { Fragment } from 'react';",
+			"",
+			"const ${1:name} = () => {",
+			"  return <Fragment />;",
+			"};",
+			"export default ${1:name};",
+			""
+		],
+		"description": "rfce"
+	}
+}
