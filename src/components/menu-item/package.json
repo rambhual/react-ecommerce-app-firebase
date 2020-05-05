@@ -1,0 +1,5 @@
+{
+  "name": "Menu Item Component",
+  "private": true,
+  "main": "./menu-item.component.js"
+}

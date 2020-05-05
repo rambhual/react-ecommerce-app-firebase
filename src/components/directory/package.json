@@ -1,0 +1,5 @@
+{
+  "name": "Directory component",
+  "private": true,
+  "main": "./directory.component.js"
+}
