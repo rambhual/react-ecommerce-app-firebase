@@ -1,9 +1,17 @@
-import React, { Fragment } from 'react';
-
+import React, { Fragment, useContext } from 'react';
+import { ShopContext } from '../../context/shop.context';
+import CollectionPreview from '../../components/collection-preview';
 const Shop = () => {
+  const { shops } = useContext(ShopContext);
+  console.log(shops);
+
   return (
     <Fragment>
-      <h2>Welcome to shop page!</h2>
+      <div className="shop-page">
+        {shops.map(({ id, ...otherCollectionProps }) => (
+          <CollectionPreview key={id} {...otherCollectionProps} />
+        ))}
+      </div>
     </Fragment>
   );
 };

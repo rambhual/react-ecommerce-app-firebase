@@ -1,0 +1,5 @@
+{
+  "name": "Collection preview component",
+  "private": true,
+  "main": "./collection-preview.component.js"
+}
